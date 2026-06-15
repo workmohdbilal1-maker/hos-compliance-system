@@ -155,6 +155,15 @@ CORS_ALLOWED_ORIGINS = os.environ.get(
     'http://localhost:5173,http://localhost:3000'
 ).split(',')
 CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_HEADERS = [
+    'accept',
+    'authorization',
+    'content-type',
+    'origin',
+    'x-csrftoken',
+    'x-requested-with',
+    'ngrok-skip-browser-warning',
+]
 
 # OpenRouteService
 ORS_API_KEY = os.environ.get('ORS_API_KEY', '')
