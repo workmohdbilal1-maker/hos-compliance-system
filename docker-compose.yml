@@ -18,7 +18,7 @@ services:
              python manage.py runserver 0.0.0.0:8000"
     volumes:
       - ./backend:/app
-      - ./RODs_Ex.pdf:/app/templates/RODs_Ex.pdf
+      - ./backend/templates/RODs_Ex.pdf:/app/templates/RODs_Ex.pdf
       - ./eld_template_mapping.json:/app/eld_template_mapping.json
     ports:
       - "8000:8000"
