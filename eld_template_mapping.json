@@ -164,7 +164,7 @@
   },
   "remarks": {
     "x": 82,
-    "start_y": 472,
+    "start_y": 462,
     "line_height": 10,
     "max_lines": 6,
     "font": "Helvetica",
@@ -175,34 +175,34 @@
     "note": "70 Hour/8 Day section (left side of recap table)",
     "on_duty_today": {
       "x": 108,
-      "y": 224
+      "y": 300
     },
     "total_hours_7days": {
       "x": 191,
-      "y": 224
+      "y": 300
     },
     "available_tomorrow": {
       "x": 234,
-      "y": 224
+      "y": 300
     },
     "total_hours_5days": {
       "x": 277,
-      "y": 224
+      "y": 300
     }
   },
   "recap_60hr": {
     "note": "60 Hour/7 Day section (right side of recap table)",
     "total_hours_8days": {
       "x": 360,
-      "y": 224
+      "y": 300
     },
     "available_tomorrow": {
       "x": 402,
-      "y": 224
+      "y": 300
     },
     "total_hours_7days": {
       "x": 443,
-      "y": 224
+      "y": 300
     }
   }
 }

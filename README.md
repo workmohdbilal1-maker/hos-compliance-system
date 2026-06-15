@@ -10,6 +10,22 @@ A full-stack **Hours of Service (HOS)** compliance system for truck drivers, imp
 
 ---
 
+## Demo
+
+### Dashboard
+![Dashboard](docs/screenshots/dashboard.png)
+
+### Trip Planner
+![Trip Planner](docs/screenshots/trip_planner.png)
+
+### Trip Detail
+![Trip Detail](docs/screenshots/trip_detail.png)
+
+### Generated RODS PDF
+![RODS PDF Sample](docs/screenshots/rods_pdf_sample.png)
+
+---
+
 ## Table of Contents
 
 - [Features](#features)
