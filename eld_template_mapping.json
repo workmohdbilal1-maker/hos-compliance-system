@@ -1,0 +1,208 @@
+{
+  "page_count": 1,
+  "page_size": {
+    "width": 612,
+    "height": 792,
+    "unit": "points",
+    "note": "Letter portrait (8.5x11 inches). Template is portrait, not landscape."
+  },
+  "fields": {
+    "date_month": {
+      "x": 218,
+      "y": 674,
+      "font": "Helvetica-Bold",
+      "size": 11,
+      "align": "center",
+      "note": "Between (month) label at x=206 and first / at x=239"
+    },
+    "date_day": {
+      "x": 263,
+      "y": 674,
+      "font": "Helvetica-Bold",
+      "size": 11,
+      "align": "center",
+      "note": "Between first / at x=239 and second / at x=287"
+    },
+    "date_year": {
+      "x": 308,
+      "y": 674,
+      "font": "Helvetica-Bold",
+      "size": 11,
+      "align": "center",
+      "note": "After second / at x=287, near (year) label at x=300"
+    },
+    "from_location": {
+      "x": 115,
+      "y": 643,
+      "font": "Helvetica",
+      "size": 9,
+      "align": "left",
+      "note": "After From: label at x=88, top=144"
+    },
+    "to_location": {
+      "x": 312,
+      "y": 643,
+      "font": "Helvetica",
+      "size": 9,
+      "align": "left",
+      "note": "After To: label at x=295, top=144"
+    },
+    "carrier_name": {
+      "x": 385,
+      "y": 210,
+      "font": "Helvetica",
+      "size": 8,
+      "align": "center",
+      "note": "Above Name of Carrier label at top=587.5"
+    },
+    "main_office_address": {
+      "x": 385,
+      "y": 189,
+      "font": "Helvetica",
+      "size": 7,
+      "align": "center",
+      "note": "Above Main Office Address label at top=609.4"
+    },
+    "home_terminal_address": {
+      "x": 385,
+      "y": 166,
+      "font": "Helvetica",
+      "size": 7,
+      "align": "center",
+      "note": "Above Home Terminal Address label at top=631.4"
+    },
+    "total_miles_driving": {
+      "x": 120,
+      "y": 202,
+      "font": "Helvetica",
+      "size": 9,
+      "align": "center",
+      "note": "Above Total Miles Driving Today label at top=596.2, x=82"
+    },
+    "total_mileage_today": {
+      "x": 210,
+      "y": 202,
+      "font": "Helvetica",
+      "size": 9,
+      "align": "center",
+      "note": "Above Total Mileage Today label at top=596.2, x=179"
+    },
+    "vehicle_numbers": {
+      "x": 165,
+      "y": 166,
+      "font": "Helvetica",
+      "size": 8,
+      "align": "center",
+      "note": "Above Truck/Tractor label at top=631.4, x=106"
+    },
+    "shipping_doc": {
+      "x": 115,
+      "y": 384,
+      "font": "Helvetica",
+      "size": 8,
+      "align": "left",
+      "note": "After DVL or Manifest No. label at top=401.6"
+    },
+    "shipper_commodity": {
+      "x": 115,
+      "y": 355,
+      "font": "Helvetica",
+      "size": 8,
+      "align": "left",
+      "note": "After Shipper & Commodity label at top=431"
+    }
+  },
+  "graph_grid": {
+    "left_x": 86.3,
+    "right_x": 501.1,
+    "hours": 24,
+    "hour_width": 17.3,
+    "rows": {
+      "off_duty": {
+        "y": 590,
+        "note": "Row center between gridlines at pdfplumber top=192.7 and 211.1 \u2192 center=201.9"
+      },
+      "sleeper_berth": {
+        "y": 572,
+        "note": "Row center between gridlines at pdfplumber top=211.1 and 229.4 \u2192 center=220.3"
+      },
+      "driving": {
+        "y": 553,
+        "note": "Row center between gridlines at pdfplumber top=229.4 and 247.8 \u2192 center=238.6"
+      },
+      "on_duty_not_driving": {
+        "y": 535,
+        "note": "Row center between gridlines at pdfplumber top=247.8 and 266.2 \u2192 center=257.0"
+      }
+    },
+    "row_height": 18,
+    "line_width": 3.0,
+    "line_color": [
+      0,
+      0,
+      0
+    ]
+  },
+  "total_hours_column": {
+    "x": 520,
+    "rows": {
+      "off_duty": {
+        "y": 590
+      },
+      "sleeper_berth": {
+        "y": 572
+      },
+      "driving": {
+        "y": 553
+      },
+      "on_duty_not_driving": {
+        "y": 535
+      }
+    },
+    "font": "Helvetica-Bold",
+    "size": 9
+  },
+  "remarks": {
+    "x": 82,
+    "start_y": 472,
+    "line_height": 10,
+    "max_lines": 6,
+    "font": "Helvetica",
+    "size": 7,
+    "note": "Remarks section starts at pdfplumber top=309, ends before Shipping at top=365"
+  },
+  "recap_70hr": {
+    "note": "70 Hour/8 Day section (left side of recap table)",
+    "on_duty_today": {
+      "x": 108,
+      "y": 224
+    },
+    "total_hours_7days": {
+      "x": 191,
+      "y": 224
+    },
+    "available_tomorrow": {
+      "x": 234,
+      "y": 224
+    },
+    "total_hours_5days": {
+      "x": 277,
+      "y": 224
+    }
+  },
+  "recap_60hr": {
+    "note": "60 Hour/7 Day section (right side of recap table)",
+    "total_hours_8days": {
+      "x": 360,
+      "y": 224
+    },
+    "available_tomorrow": {
+      "x": 402,
+      "y": 224
+    },
+    "total_hours_7days": {
+      "x": 443,
+      "y": 224
+    }
+  }
+}
